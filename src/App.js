@@ -27,15 +27,9 @@ const cambiarLuz = () => {
   console.log('verde', verde);
 }
 
-  // useEffect(()=> {
-  //   cambiarLuz()
-  // }, [verde, amarillo, rojo])
-
   setTimeout(() => {
     cambiarLuz()
   }, 3000);
-
-
 
   return (
     <div className="App">
